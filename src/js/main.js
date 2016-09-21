@@ -1,3 +1,4 @@
+require('../styles/main.scss')
 import test from './modules/test/test'
 let interval = setInterval(test, 1000)
 
