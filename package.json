@@ -1,0 +1,41 @@
+{
+  "name": "bfrontapp",
+  "version": "1.0.0",
+  "description": "Front end application for bedag app",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccorcoveanu/bfrontapp.git"
+  },
+  "author": "Cristi Corcoveanu <cristi.corcoveanu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccorcoveanu/bfrontapp/issues"
+  },
+  "homepage": "https://github.com/ccorcoveanu/bfrontapp#readme",
+  "devDependencies": {
+
+    "babel-core": "^6.4.0",
+    "babel-eslint": "^4.1.6",
+    "babel-istanbul": "^0.6.0",
+    "babel-istanbul-loader": "0.0.1",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-coverage": "^0.5.3",
+    "karma-jasmine": "^0.3.6",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.7.0",
+    "loader-utils": "^0.2.12",
+    "rimraf": "^2.5.0",
+    "webpack": "^1.12.11"
+  }
+}
