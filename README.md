@@ -1,4 +1,4 @@
-# Front end application for bedag app
+# My ES6, SASS boilerplate
 
 ### Installation
 
@@ -16,8 +16,6 @@ $ npm install
 ```
 
 Install karma-cli
-
-Install dependencies
 
 ```
 $ npm install karma-cli
