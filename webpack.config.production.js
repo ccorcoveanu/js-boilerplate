@@ -6,8 +6,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: [
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
     './src/js/main.js'
   ],
   output: {
@@ -25,16 +23,26 @@ module.exports = {
   },
   plugins: [
     // Avoid publishing files when compilation fails
-    new webpack.NoErrorsPlugin(),
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.DefinePlugin({
+      'process.env': {
+        'NODE_ENV': JSON.stringify('production')
+      }
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compressor: {
+        warnings: false
+      }
+    }),
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'src', 'index.html'),
       hash: true
-    })
+    }),
   ],
   stats: {
     // Nice colored output
     colors: true
   },
   // Create Sourcemaps for the bundle
-  devtool: 'source-map',
+  devtool: 'cheap-module-source-map',
 }
