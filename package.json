@@ -1,21 +1,21 @@
 {
-  "name": "bfrontapp",
+  "name": "js-boilerplate",
   "version": "1.0.0",
-  "description": "Front end application for bedag app",
+  "description": "My ES6, SASS boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "karma start karma.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ccorcoveanu/bfrontapp.git"
+    "url": "git+https://github.com/ccorcoveanu/js-boilerplate.git"
   },
   "author": "Cristi Corcoveanu <cristi.corcoveanu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ccorcoveanu/bfrontapp/issues"
+    "url": "https://github.com/ccorcoveanu/js-boilerplate/issues"
   },
-  "homepage": "https://github.com/ccorcoveanu/bfrontapp#readme",
+  "homepage": "https://github.com/ccorcoveanu/js-boilerplate#readme",
   "devDependencies": {
 
     "babel-core": "^6.4.0",
