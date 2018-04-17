@@ -1,0 +1,1 @@
+{"version":3,"file":"css/style.css","sources":["webpack:////./src/styles/src/styles/modules/test.scss"],"sourcesContent":["body {\r\n  color: blue;\r\n}\n\n\n/** WEBPACK FOOTER **\n ** /./src/styles/src/styles/modules/test.scss\n **/"],"mappings":"AAAA","sourceRoot":""}
